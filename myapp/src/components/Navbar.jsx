@@ -32,6 +32,16 @@ const MenuItem = styled.li`
     color: gray;
 `
 
+const Button = styled.button`
+    border: 2px solid white;
+    padding: 10px 15px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+`
+
 const Navbar = () => {
     return (
         <Container>
@@ -46,7 +56,7 @@ const Navbar = () => {
                         <MenuItem>Contato</MenuItem>
                     </Menu>
                 </Left>
-                <span>Button</span>
+                <Button>Ingresse Agora</Button>
             </Wrapper>
         </Container>
     )
