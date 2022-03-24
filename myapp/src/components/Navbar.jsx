@@ -54,7 +54,7 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Logo>Agência</Logo>
+          <Logo>AnyCrypto</Logo>
           <Menu>
             <MenuItem>Home</MenuItem>
             <MenuItem>Recursos</MenuItem>
