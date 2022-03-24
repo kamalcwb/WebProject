@@ -1,96 +1,121 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 import Woman from '../img/woman.png'
-import AnimatedShapes from './AnimatedShapes'
+import AnimatedShapes from "./AnimatedShapes";
 
 const Container = styled.div`
-    height: calc (100vh - 50px);
-    display: flex;
-    padding: 20px;
-`
-const Left = styled.div`
-    width: 60%;
-    display: flex;
+  height: calc(100vh - 50px);
+  display: flex;
+  padding: 20px;
+  @media only screen and (max-width: 480px) {
     flex-direction: column;
-    aling-items: center;
-    jutify-content: center;
-`
+  }
+`;
+
+const Left = styled.div`
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    height: 100%;
+  }
+`;
 
 const Title = styled.h1`
-    font-size: 60px;
-    width: 60%;
-`
+  width: 60%;
+  font-size: 60px;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    font-size: 50px;
+  }
+`;
 
 const Desc = styled.p`
-    width: 60%;
-    font-size: 20px;
-`
+  width: 60%;
+  font-size: 20px;
+  margin-top: 20px;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
+`;
 
 const Info = styled.div`
-    width: 60%;
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    aling-items: center;
-`
+  width: 60%;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    flex-direction: column;
+  }
+`;
 
 const Button = styled.button`
-    padding: 15px;
-    background-color: darkblue;
-    color: white;
-    border-radius: 10px;
-    font-weight: bold;
-    border: none;
-    letter-spacing: 2px;
-    cursor: pointer;
-`
+  padding: 15px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+  letter-spacing: 2px;
+  cursor: pointer;
+  @media only screen and (max-width: 480px) {
+    margin-bottom: 20px;
+  }
+`;
 
 const Contact = styled.div`
-    display: flex;
-    flex-direction: column;
-`
+  display: flex;
+  flex-direction: column;
+`;
 
 const Tel = styled.span`
-    color: #f0667d;
-    font-weight: bold;
-`
+  color: #f0667d;
+  font-weight: bold;
+`;
 
-const Contactext = styled.span`
-    color: gray;
-    marging-top: 5px
-`
+const ContactText = styled.span`
+  color: gray;
+  margin-top: 5px;
+`;
 
 const Right = styled.div`
-    width: 40%;
-`
+  width: 40%;
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
+`;
 
 const Image = styled.img`
     width: 100%;
 `
-
 const intro = () => {
-    return (
-        <Container>
-            <Left>
-                <Title>Aventuras na idade criativa</Title>
-                <Desc>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam exercitationem quisquam, soluta repudiandae
-                    molestiae nihil eos
-                    assumenda vero quibusdam illo a ipsum aspernatur itaque provident aperiam enim non deleniti!
-                    Dignissimos!</Desc>
-                <Info>
-                    <Button>Começe um Projeto</Button>
-                    <Contact>
-                        <Tel>+55 16 9999-9999</Tel>
-                        <Contactext>Perguntas e sujestões</Contactext>
-                    </Contact>
-                </Info>
-            </Left>
-            <Right>
-                <Image src={Woman} />
-            </Right>
-            <AnimatedShapes />
-        </Container>
-    )
+  return (
+    <Container>
+      <Left>
+        <Title>Aplicativos</Title>
+        <Desc>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam exercitationem quisquam, soluta repudiandae
+          molestiae nihil eos
+          assumenda vero quibusdam illo a ipsum aspernatur itaque provident aperiam enim non deleniti!
+          Dignissimos!</Desc>
+        <Info>
+          <Button>Começe um Projeto</Button>
+          <Contact>
+            <Tel>+55 16 9999-9999</Tel>
+            <ContactText>Perguntas e sujestões</ContactText>
+          </Contact>
+        </Info>
+      </Left>
+      <Right>
+        <Image src={Woman} />
+      </Right>
+      <AnimatedShapes />
+    </Container>
+  )
 }
 
 export default intro
