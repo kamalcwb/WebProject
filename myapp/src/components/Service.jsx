@@ -124,11 +124,9 @@ const Service = () => {
       </Left>
       <Right>
         <Wrapper>
-          <Title>Processo fácil</Title>
+          <Title>Aprenda a investir</Title>
           <Desc>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, nobis! Est vel iste velit minima,
-            dolorem asperiores esse temporibus animi minus itaque voluptate soluta eveniet consectetur debitis quo.
-            Odio, delectus!
+            Com a AnyCrypto você aprenderá a investir no mercado crypto com os melhores profissionais.
           </Desc>
           <CardContainer>
             <MiniCard />

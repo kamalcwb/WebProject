@@ -55,17 +55,15 @@ const Info = styled.div`
 `;
 
 const Button = styled.button`
-  padding: 15px;
+  width: 150px;
+  border: none;
+  padding: 15px 20px;
   background-color: darkblue;
   color: white;
-  border-radius: 10px;
-  font-weight: bold;
-  border: none;
-  letter-spacing: 2px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 20px;
   cursor: pointer;
-  @media only screen and (max-width: 480px) {
-    margin-bottom: 20px;
-  }
 `;
 
 const Contact = styled.div`
@@ -97,13 +95,16 @@ const intro = () => {
   return (
     <Container>
       <Left>
-        <Title>Aplicativos</Title>
-        <Desc>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam exercitationem quisquam, soluta repudiandae
-          molestiae nihil eos
-          assumenda vero quibusdam illo a ipsum aspernatur itaque provident aperiam enim non deleniti!
-          Dignissimos!</Desc>
+        <Title>Investir em cripto transforma sua carteira</Title>
+        <Desc>Ethereum, Litecoin, Ripple, Binance coin, Dogecoin. Se você reconheceu esses nomes, sabe que o mundo das
+          criptomoedas já foi muito além do Bitcoin.
+          O investimento em moedas digitais tem crescido no Brasil. Dados do Banco Central mostram que os brasileiros haviam
+          comprado mais de US$ 4,6 bilhões em criptomoedas somente de janeiro a setembro de 2021.
+          Mas afinal, o que são criptomoedas? Como começar a negociá-las e quais os riscos e oportunidades que elas apresentam
+          para o investidor?
+        </Desc>
         <Info>
-          <Button>Começe um Projeto</Button>
+          <Button>Saiba Mais</Button>
           <Contact>
             <Tel>+55 16 9999-9999</Tel>
             <ContactText>Perguntas e sujestões</ContactText>

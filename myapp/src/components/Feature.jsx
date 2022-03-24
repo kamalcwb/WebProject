@@ -76,14 +76,12 @@ const Feature = () => {
           <b>Ótimo</b> para os negócios
         </Title>
         <SubTitle>
-          Nós sabemos que o desing afeta diretamente os negócios,
+          Mergulhe no mercado cripto e saiba como investir
         </SubTitle>
-        <Desc>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime illum officiis veritatis odit! Officiis
-          suscipit reprehenderit soluta excepturi eligendi magni dolore amet, maxime tenetur architecto illo libero adipisci,
-          voluptates nobis.</Desc>
-        <Desc>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime illum officiis veritatis odit! Officiis
-          suscipit reprehenderit soluta excepturi eligendi magni dolore amet, maxime tenetur architecto illo libero adipisci,
-          voluptates nobis.</Desc>
+        <Desc>Para tirar todas essas dúvidas, a Semana AnyCrypto, realizada em novembro, reuniu especialistas no momento em
+          que o valor de mercado total das criptos passava de US$ 2,9 trilhões, de acordo com o site Coin Market Cap.</Desc>
+        <Desc>O evento apresentou os conceitos básicos e as regras desse mercado, além de abordar como fazer a gestão sistemática
+          desses ativos e a importância da diversificação do portfólio.</Desc>
         <Button>Saiba Mais</Button>
       </Right>
       <AnimatedShapes />

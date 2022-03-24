@@ -29,14 +29,14 @@ const Text = styled.span`
 
 
 const MiniCard = () => {
-    return (
-        <Container>
-            <Image src={Search} />
-            <Text>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </Text>
-        </Container>
-    )
+  return (
+    <Container>
+      <Image src={Search} />
+      <Text>
+        Organize sua vida financeira.
+      </Text>
+    </Container>
+  )
 }
 
 export default MiniCard
