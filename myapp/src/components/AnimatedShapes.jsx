@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Square = styled.div`
   width: 60px;
   height: 60px;
-  background-color: #4e6bff;
+  background-color: #fb573b;
   opacity: 0.7;
   position: absolute;
   top: -60px;
@@ -22,7 +22,7 @@ const Square = styled.div`
 const Rect = styled.div`
   width: 50px;
   height: 100px;
-  background-color: #669966;
+  background-color: #4f393c;
   opacity: 0.5;
   position: absolute;
   top: 400px;
@@ -41,7 +41,7 @@ const Circle = styled.div`
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  background-color: #ff97af;
+  background-color: #9cd0ac;
   position: absolute;
   top: 200px;
   left: -100px;

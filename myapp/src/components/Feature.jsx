@@ -72,7 +72,7 @@ const Feature = () => {
       <Left><Image src={App} /></Left>
       <Right>
         <Title>
-          <b>Ótimo</b> desing <br />
+          <b>Ótimo</b> investimento <br />
           <b>Ótimo</b> para os negócios
         </Title>
         <SubTitle>
